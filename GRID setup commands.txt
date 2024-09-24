@@ -1,0 +1,25 @@
+for hub to up on Host machine ---  <port can be used of your choice>
+
+java -jar selenium-server-4.7.2.jar --ext -role hub -p 5786
+
+For node registration(on guest machine) to hub 
+java -jar selenium-server-4.7.2.jar node --hub <ip of hub machine with port>/grid/register
+java -jar selenium-server-4.7.2.jar node --hub http://192.168.1.7:5786/grid/register 
+
+for firefox related node(try only if not worked with above)--
+java -Dwebdriver.gecko.driver=C:\Software\Selenium\geckodriver.exe -jar selenium-server-4.7.2.jar node --hub https://192.168.1.4:5786/grid/register
+
+
+
+
+
+---------------------------
+To discover which program is using a given IP address and port number on the computer
+window cmd-->
+NETSTAT -p tcp -ano
+
+
+task kill in windows CMD-->
+taskkill -pid 29648 /f
+java -jar selenium-server-4.7.2.jar node --hub https://192.168.1.4:4444/grid/register -p 5787
+    
