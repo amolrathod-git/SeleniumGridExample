@@ -22,7 +22,7 @@
 <!--<build>-->
 <!--  <plugins>-->
 
-<!--    <plugin>  test --> 
+<!--    <plugin>  test1 --> 
 <!--      <groupId>org.apache.maven.plugins</groupId>-->
 <!--      <artifactId>maven-surefire-plugin</artifactId>-->
 <!--      <version>4.0.1</version>-->
