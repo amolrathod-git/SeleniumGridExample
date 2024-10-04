@@ -135,7 +135,7 @@
           <executions>
                   <execution>
                           <goals>
-                              <goal>test-jar2</goal>
+                              <goal>test-jar3</goal>
                           </goals>
                   </execution>
           </executions>
